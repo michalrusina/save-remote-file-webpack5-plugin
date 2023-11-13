@@ -1,0 +1,35 @@
+{
+	"name": "save-remote-file-webpack5-plugin",
+	"version": "1.0.0",
+	"description": "Download remove files and add them to Webpack assets.",
+	"author": {
+		"name": "Michal Rusina",
+		"email": "ja@michalrusina.sk",
+		"url": "https://michalrusina.sk/"
+	},
+	"license": "MIT",
+	"keywords": [
+		"wordpress",
+		"webpack",
+		"download",
+		"file"
+	],
+	"homepage": "https://github.com/michalrusina/save-remote-file-webpack5-plugin/blob/main/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/michalrusina/save-remote-file-webpack5-plugin.git"
+	},
+	"bugs": {
+		"url": "https://github.com/michalrusina/save-remote-file-webpack5-plugin"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"main": "lib/index.js",
+	"peerDependencies": {
+		"webpack": "^5.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
